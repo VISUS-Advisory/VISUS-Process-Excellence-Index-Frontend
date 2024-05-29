@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from './LandingPage';
+import CategorySelection from './CategorySelection';
+import EvaluationForm from './EvaluationForm';
 
 function App() {
+  const [selectedCategories, setSelectedCategories] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route
+            path="/select-categories"
+            element={<CategorySelection setSelectedCategories={setSelectedCategories} />}
+          />
+          <Route
+            path="/evaluate"
+            element={
+              selectedCategories.length === 0 ? (
+                <CategorySelection setSelectedCategories={setSelectedCategories} />
+              ) : (
+                <EvaluationForm selectedCategories={selectedCategories} />
+              )
+            }
+          />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
