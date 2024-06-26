@@ -1,0 +1,1121 @@
+[
+  {
+    "id": 1,
+    "Category": "Controlling",
+    "question": [
+      {
+        "Process": "Kundenprofitabilität",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Kundenprofitabilität</b>?",
+        "Description": [
+          "Identifikation von profitablen Kunden",
+          "Analyse von Kunden- und Verkaufsdaten",
+          "Entwicklung von Kundenprofitabilitätsstrategien",
+          "Überwachung und Anpassung der Kundenprofitabilität"
+        ]
+      },
+      {
+        "Process": "Prozessoptimierung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Prozessoptimierung</b>?",
+        "Description": [
+          "Identifikation von Prozessoptimierungspotentialen",
+          "Analyse von Geschäftsprozessen",
+          "Entwicklung von Prozessoptimierungsstrategien",
+          "Umsetzung von Prozessoptimierungsmaßnahmen"
+        ]
+      },
+      {
+        "Process": "Finanzanalyse",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Finanzanalyse</b>?",
+        "Description": [
+          "Identifikation von Finanzzielen",
+          "Analyse von Finanzdaten",
+          "Erstellung von Finanzberichten",
+          "Bewertung von Finanzdaten"
+        ]
+      },
+      {
+        "Process": "Investitionscontrolling",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Investitionscontrolling</b>?",
+        "Description": [
+          "Identifikation von Investitionsbedarf",
+          "Erstellung von Investitionsplänen",
+          "Überwachung von Investitionsbudgets",
+          "Bewertung von Investitionsprojekten"
+        ]
+      },
+      {
+        "Process": "Datenmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Datenmanagement</b>?",
+        "Description": [
+          "Erstellung von Budgetplänen",
+          "Überwachung von Budgets",
+          "Analyse von Abweichungen",
+          "Überprüfung und Anpassung von Budgetplänen"
+        ]
+      },
+      {
+        "Process": "Preis- und Konditionenmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Preis- und Konditionenmanagement</b>?",
+        "Description": [
+          "Identifikation von Preis- und Konditionenbedarf",
+          "Entwicklung von Preis- und Konditionenstrategien",
+          "Überwachung und Anpassung von Preis- und Konditionenmanagement"
+        ]
+      },
+      {
+        "Process": "Compliance-Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Compliance-Management</b>?",
+        "Description": [
+          "Identifikation von Compliance-Richtlinien",
+          "Überprüfung von Compliance-Richtlinien",
+          "Entwicklung von Compliance-Management-Strategien",
+          "Überwachung und Anpassung des Compliance-Managements"
+        ]
+      },
+      {
+        "Process": "Geschäftsentwicklungsanalyse",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Geschäftsentwicklungsanalyse</b>?",
+        "Description": [
+          "Identifikation von Geschäftsentwicklungszielen",
+          "Analyse von Geschäftsentwicklungsdaten",
+          "Überprüfung von Geschäftsentwicklungsstrategien",
+          "Anpassung von Geschäftsentwicklungsplänen"
+        ]
+      },
+      {
+        "Process": "Risikomanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Risikomanagement</b>?",
+        "Description": [
+          "Identifikation von Risiken",
+          "Bewertung von Risiken",
+          "Entwicklung von Risikomanagementstrategien",
+          "Überwachung und Anpassung des Risikomanagements"
+        ]
+      },
+      {
+        "Process": "Management-Reporting",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Management-Reporting</b>?",
+        "Description": [
+          "Identifikation von Kennzahlen",
+          "Erstellung von Management-Reports",
+          "Analyse von Berichten",
+          "Entwicklung von Handlungsempfehlungen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "Category": "Einkauf",
+    "question": [
+      {
+        "Process": "Lieferantenmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Lieferantenmanagement</b>?",
+        "Description": [
+          "Identifikation von Lieferanten",
+          "Bewertung von Lieferanten",
+          "Überwachung von Lieferantenleistungen",
+          "Anpassung von Lieferantenbeziehungen"
+        ]
+      },
+      {
+        "Process": "Bedarfsermittlung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Bedarfsermittlung</b>?",
+        "Description": [
+          "Identifikation von Bedarf an Waren und Dienstleistungen",
+          "Überprüfung von Bedarfsanforderungen",
+          "Erstellung von Bestelllisten",
+          "Abstimmung von Bedarf mit anderen Abteilungen"
+        ]
+      },
+      {
+        "Process": "Bestellung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Bestellung</b>?",
+        "Description": [
+          "Auswahl von Lieferanten",
+          "Erstellung von Bestellanforderungen",
+          "Erstellung von Bestelllisten",
+          " Verhandlung von Preisen und Konditionen"
+        ]
+      },
+      {
+        "Process": "Eingangskontrolle",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Eingangskontrolle</b>?",
+        "Description": [
+          "Überprüfung von Warenlieferungen",
+          "Überprüfung von Lieferpapieren",
+          "Überprüfung von Liefermengen und -qualität",
+          "Einleitung von Korrekturmaßnahmen bei Mängeln"
+        ]
+      },
+      {
+        "Process": "Lagerhaltung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Lagerhaltung</b>?",
+        "Description": [
+          "Identifikation von Lagerbedarf",
+          "Überwachung von Lagerbeständen",
+          "Überprüfung von Lagerbedingungen",
+          "Anpassung von Lagerhaltungsstrategien"
+        ]
+      },
+      {
+        "Process": "Lieferantenbewertung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Lieferantenbewertung</b>?",
+        "Description": [
+          "Identifikation von Lieferanten",
+          "Bewertung von Lieferantenleistungen",
+          "Überwachung von Lieferantenleistungen",
+          "Anpassung von Lieferantenbeziehungen"
+        ]
+      },
+      {
+        "Process": "Vertragsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Vertragsmanagement</b>?",
+        "Description": [
+          "Identifikation von Vertragsbedarf",
+          "Erstellung von Verträgen",
+          "Verhandlung von Vertragsbedingungen",
+          "Überwachung und Anpassung des Vertragsmanagements"
+        ]
+      },
+      {
+        "Process": "Risikomanagement im Einkauf",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Risikomanagement im Einkauf</b>?",
+        "Description": [
+          "Identifikation von Einkaufsrisiken",
+          "Analyse von Einkaufsrisiken",
+          "Entwicklung von Risikomanagementstrategien",
+          "Überwachung und Anpassung des Risikomanagements"
+        ]
+      },
+      {
+        "Process": "Ausschreibungen",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zu <b>Ausschreibungen</b>?",
+        "Description": [
+          "Identifikation von Bedarf",
+          "Erstellung von Ausschreibungen",
+          "Auswahl von Lieferanten",
+          "Verhandlung von Preisen und Konditionen"
+        ]
+      },
+      {
+        "Process": "Lieferantenentwicklung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Lieferantenentwicklung</b>?",
+        "Description": [
+          "Identifikation von Lieferanten",
+          "Entwicklung von Lieferantenbeziehungen",
+          "Schulung von Lieferanten",
+          "Überwachung von Lieferantenleistungen"
+        ]
+      },
+      {
+        "Process": "Abfallmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Abfallmanagement</b>?",
+        "Description": [
+          "Identifikation von Abfallprodukten",
+          "Überwachung von Abfallmengen",
+          "Überprüfung von Entsorgungsbedingungen",
+          "Anpassung von Abfallmanagementstrategien"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "Category": "Finanzbuchhaltung",
+    "question": [
+      {
+        "Process": "Steuerberichterstattung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Steuerberichterstattung</b>?",
+        "Description": [
+          "Identifikation von steuerlichen Meldepflichten",
+          "Erstellung von Steuererklärungen",
+          "Einhaltung von Steuervorschriften",
+          "Überprüfung der Steuerberichterstattung"
+        ]
+      },
+      {
+        "Process": "Anlagenbuchhaltung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Anlagenbuchhaltung</b>?",
+        "Description": [
+          "Identifikation von Anlagegütern",
+          "Buchung von Anlagegütern",
+          "Überprüfung von Abschreibungen",
+          "Erstellung von Anlagenspiegeln"
+        ]
+      },
+      {
+        "Process": "Personalabrechnung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Personalabrechnung</b>?",
+        "Description": [
+          "Identifikation von Personalbedarf",
+          "Erstellung von Gehaltsabrechnungen",
+          "Überwachung von Sozialversicherungsbeiträgen",
+          "Einhaltung von Arbeitsrecht und Datenschutz"
+        ]
+      },
+      {
+        "Process": "Vertragsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Vertragsmanagement</b>?",
+        "Description": [
+          "Identifikation von Vertragsbedarf",
+          "Erstellung von Verträgen",
+          "Verhandlung von Vertragsbedingungen",
+          "Überwachung und Anpassung des Vertragsmanagements"
+        ]
+      },
+      {
+        "Process": "Kreditoren-Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Kreditoren-Management</b>?",
+        "Description": [
+          "Identifikation von Kreditoren",
+          "Überprüfung von Kreditorenrechnungen",
+          "Zahlungsabwicklung",
+          "Überwachung von Zahlungsterminen"
+        ]
+      },
+      {
+        "Process": "Debitoren-Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Debitoren-Management</b>?",
+        "Description": [
+          "Identifikation von Debitoren",
+          "Überprüfung von Debitorenrechnungen",
+          "Mahnwesen",
+          "Überwachung von Zahlungseingängen"
+        ]
+      },
+      {
+        "Process": "Reisekostenabrechnung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Reisekostenabrechnung</b>?",
+        "Description": [
+          "Identifikation von Reisekosten",
+          "Erstellung von Reisekostenabrechnungen",
+          "Erstattung von Reisekosten",
+          "Überwachung von Reisekosten"
+        ]
+      },
+      {
+        "Process": "Buchhaltung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Buchhaltung</b>?",
+        "Description": [
+          "Erstellung von Buchungsbelegen",
+          "Buchung von Geschäftsvorfällen",
+          "Erstellung von Monats- und Jahresabschlüssen",
+          "Überprüfung der Buchhaltung"
+        ]
+      },
+      {
+        "Process": "Monatsabschluss",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Monatsabschluss</b>?",
+        "Description": [
+          "Überprüfung von Konten und Buchungen",
+          "Erfassung von Journalbuchungen",
+          "Abschluss von Konten",
+          "Erstellung von Abschlussbuchungen"
+        ]
+      },
+      {
+        "Process": "Jahresabschluss",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Jahresabschluss</b>?",
+        "Description": [
+          "Überprüfung von Bilanz, Gewinn- und Verlustrechnung und Anhang",
+          "Erfassung von Abschreibungen und Rückstellungen",
+          "Buchung von Jahresabschlussbuchungen",
+          "Erstellung des Jahresabschlusses"
+        ]
+      },
+      {
+        "Process": "Liquiditätsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Liquiditätsmanagement</b>?",
+        "Description": [
+          "Erstellung von Liquiditätsplänen",
+          "Überwachung von Zahlungsein- und -ausgängen",
+          "Durchführung von Zahlungen",
+          "Überprüfung der Liquidität"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "Category": "Human Resources",
+    "question": [
+      {
+        "Process": "Personalbedarfsplanung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Personalbedarfsplanung</b>?",
+        "Description": [
+          "Analyse von Arbeitskräftebedarf",
+          "Prognose von Personalbedarf",
+          "Identifizierung von Fähigkeiten und Kompetenzen",
+          "Festlegung von Personalentwicklungsmaßnahmen"
+        ]
+      },
+      {
+        "Process": "Bewerbermanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Bewerbermanagement</b>?",
+        "Description": [
+          "Veröffentlichung von Stellenanzeigen",
+          "Identifikation von geeigneten Kandidaten",
+          "Durchführung von Vorstellungsgesprächen",
+          "Vertragsverhandlungen"
+        ]
+      },
+      {
+        "Process": "Personalentwicklung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Personalentwicklung</b>?",
+        "Description": [
+          "Identifizierung von Fähigkeiten und Kompetenzen",
+          "Entwicklung von Personalentwicklungsplänen",
+          "Durchführung von Schulungen und Trainings",
+          "Überprüfung von Entwicklungsmaßnahmen"
+        ]
+      },
+      {
+        "Process": "Leistungsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Leistungsmanagement</b>?",
+        "Description": [
+          "Festlegung von Leistungszielen",
+          "Durchführung von Leistungsbeurteilungen",
+          "Entwicklung von Leistungsverbesserungsmaßnahmen",
+          "Überprüfung von Leistungszielen"
+        ]
+      },
+      {
+        "Process": "Diversity-Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Diversity-Management</b>?",
+        "Description": [
+          "Identifizierung von Diversitätszielen",
+          "Durchführung von Maßnahmen zur Förderung der Diversität",
+          "Überprüfung der Diversitätsziele",
+          "Schulung von Mitarbeitern zur Einhaltung der Diversitätsrichtlinien"
+        ]
+      },
+      {
+        "Process": "Mitarbeiterbindung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Mitarbeiterbindung</b>?",
+        "Description": [
+          "Identifikation von Maßnahmen zur Verbesserung der Mitarbeiterbindung",
+          "Durchführung von Mitarbeiterbefragungen",
+          "Organisation von Mitarbeiterveranstaltungen",
+          "Angebot von Mitarbeiterbenefits"
+        ]
+      },
+      {
+        "Process": "Nachfolgeplanung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Nachfolgeplanung</b>?",
+        "Description": [
+          "Identifikation von Schlüsselpositionen",
+          "Analyse von Kompetenz- und Erfahrungslücken",
+          "Identifikation von potenziellen Nachfolgern",
+          "Entwicklung von Nachfolgeplänen"
+        ]
+      },
+      {
+        "Process": "Onboarding",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Onboarding</b>?",
+        "Description": [
+          "Entwicklung von Einarbeitungsplänen",
+          "Integration von neuen Mitarbeitern",
+          "Überprüfung des Einarbeitungsprozesses",
+          "Bereitstellung von Ressourcen und Unterstützung"
+        ]
+      },
+      {
+        "Process": "Karriereentwicklung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Karriereentwicklung</b>?",
+        "Description": [
+          "Identifizierung von Karrierezielen",
+          "Entwicklung von Karriereplänen",
+          "Durchführung von Karrieregesprächen",
+          "Überprüfung der Karrierepläne"
+        ]
+      },
+      {
+        "Process": "Konfliktmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Konfliktmanagement</b>?",
+        "Description": [
+          "Identifikation von Konflikten",
+          "Bewertung der Konfliktsituation",
+          "Entwicklung von Konfliktlösungsstrategien",
+          "Umsetzung von Konfliktlösungsmaßnahmen"
+        ]
+      },
+      {
+        "Process": "Arbeitsrecht und Compliance",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zu <b>Arbeitsrecht und Compliance</b>?",
+        "Description": [
+          "Überprüfung von Arbeitsverträgen und -bedingungen",
+          "Einhaltung von gesetzlichen Bestimmungen und Vorschriften",
+          "Schulung von Mitarbeitern zur Einhaltung der Arbeitsrechts- und Compliance-Richtlinien",
+          "Überwachung der Compliance"
+        ]
+      },
+      {
+        "Process": "Personaladministration",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Personaladministration</b>?",
+        "Description": [
+          "Verwaltung von Personalakten und -daten",
+          "Durchführung von Transaktionen wie Ein- und Austrittsprozessen",
+          "Überprüfung und Anpassung von administrativen Prozessen",
+          "Einhaltung von gesetzlichen Bestimmungen"
+        ]
+      },
+      {
+        "Process": "Recruiting",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Recruiting</b>?",
+        "Description": [
+          "Planung von Personalbedarf",
+          "Erstellung von Stellenanzeigen",
+          "Identifikation von geeigneten Kandidaten",
+          "Durchführung von Vorstellungsgesprächen",
+          "Vertragsverhandlungen",
+          "Integration von neuen Mitarbeitern"
+        ]
+      },
+      {
+        "Process": "Vergütungssysteme",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zu <b>Vergütungssysteme</b>n?",
+        "Description": [
+          "Entwicklung von Vergütungsstrukturen",
+          "Identifikation von variablen Vergütungsbestandteilen wie Boni und Prämien",
+          "Überprüfung und Anpassung der Vergütungssysteme",
+          "Einhaltung von gesetzlichen Bestimmungen"
+        ]
+      },
+      {
+        "Process": "Employer Branding",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Employer Branding</b>?",
+        "Description": [
+          "Analyse der Arbeitgebermarke",
+          "Entwicklung einer Arbeitgebermarkenstrategie",
+          "Umsetzung von Employer-Branding-Maßnahmen",
+          "Überwachung der Arbeitgebermarke"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "Category": "Information Technology",
+    "question": [
+      {
+        "Process": "IT-Sicherheitsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>IT-Sicherheitsmanagement</b>?",
+        "Description": [
+          "Identifikation von Sicherheitsrisiken",
+          "Überwachung der IT-Sicherheitsinfrastruktur",
+          "Entwicklung und Anpassung von IT-Sicherheitsstrategien",
+          "Schulung von Mitarbeitern im Bereich IT-Sicherheit"
+        ]
+      },
+      {
+        "Process": "Systementwicklung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Systementwicklung</b>?",
+        "Description": [
+          "Identifikation von IT-Systembedarf",
+          "Entwicklung von IT-Systemen",
+          "Integration von IT-Systemen",
+          "Anpassung von IT-Systemen"
+        ]
+      },
+      {
+        "Process": "Benutzerverwaltung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Benutzerverwaltung</b>?",
+        "Description": [
+          "Einrichtung und Verwaltung von Benutzerkonten",
+          "Überwachung der Zugriffsrechte",
+          "Anpassung von Benutzerkonten und Zugriffsrechten",
+          "Schulung von Mitarbeitern im Bereich Benutzerverwaltung"
+        ]
+      },
+      {
+        "Process": "IT-Infrastrukturmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>IT-Infrastrukturmanagement</b>?",
+        "Description": [
+          "Identifikation von IT-Infrastrukturbedarf",
+          "Überwachung und Wartung der IT-Infrastruktur",
+          "Anpassung der IT-Infrastruktur",
+          "Schulung von Mitarbeitern im Bereich IT-Infrastruktur"
+        ]
+      },
+      {
+        "Process": "IT-Service-Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>IT-Service-Management</b>?",
+        "Description": [
+          "Identifikation von IT-Servicebedarf",
+          "Überwachung und Wartung von IT-Services",
+          "Anpassung von IT-Services",
+          "Schulung von Mitarbeitern im Bereich IT-Service-Management"
+        ]
+      },
+      {
+        "Process": "IT-Beschaffungsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>IT-Beschaffungsmanagement</b>?",
+        "Description": [
+          "Identifikation von IT-Bedarf",
+          "Erstellung von Beschaffungsanforderungen",
+          "Auswahl von Lieferanten",
+          "Verhandlung von Preisen und Konditionen"
+        ]
+      },
+      {
+        "Process": "IT-Projektmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>IT-Projektmanagement</b>?",
+        "Description": [
+          "Identifikation von IT-Projekten",
+          "Überwachung von IT-Projekten",
+          "Bewertung von IT-Projekten",
+          "Anpassung von IT-Projekten"
+        ]
+      },
+      {
+        "Process": "IT-Asset-Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>IT-Asset-Management</b>?",
+        "Description": [
+          "Identifikation von IT-Assets",
+          "Überwachung der Nutzung von IT-Assets",
+          "Wartung von IT-Assets",
+          "Anpassung von IT-Asset-Strategien"
+        ]
+      },
+      {
+        "Process": "Datensicherungsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Datensicherungsmanagement</b>?",
+        "Description": [
+          "Identifikation von Daten",
+          "Überwachung der Datensicherung",
+          "Wiederherstellung von Daten",
+          "Anpassung der Datensicherungsstrategie"
+        ]
+      },
+      {
+        "Process": "Anwendungsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Anwendungsmanagement</b>?",
+        "Description": [
+          "Identifikation von Anwendungsbedarf",
+          "Überwachung von Anwendungen",
+          "Anpassung von Anwendungen",
+          "Schulung von Mitarbeitern im Bereich Anwendungsmanagement"
+        ]
+      },
+      {
+        "Process": "Change Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Change Management</b>?",
+        "Description": [
+          "Identifikation von Änderungsbedarf",
+          "Überwachung von Änderungen",
+          "Bewertung von Änderungen",
+          "Anpassung von Änderungsprozessen"
+        ]
+      },
+      {
+        "Process": "IT-Compliance-Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>IT-Compliance-Management</b>?",
+        "Description": [
+          "Identifikation von Compliance-Anforderungen",
+          "Überwachung der IT-Compliance",
+          "Anpassung von IT-Compliance-Strategien",
+          "Schulung von Mitarbeitern im Bereich IT-Compliance"
+        ]
+      },
+      {
+        "Process": "Lizenzmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Lizenzmanagement</b>?",
+        "Description": [
+          "Identifikation des Softwarebedarfs",
+          "Auswahl von Softwareanbietern",
+          "Verhandlung von Lizenzbedingungen",
+          "Überwachung und Verwaltung von Lizenzbeständen",
+          "Schulung von Mitarbeitern im Umgang mit Lizenzfragen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "Category": "Marketing",
+    "question": [
+      {
+        "Process": "Zielgruppenanalyse",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Zielgruppenanalyse</b>?",
+        "Description": [
+          "Identifikation von Zielgruppenbedürfnissen",
+          "Entwicklung von Zielgruppenprofilen",
+          "Analyse von Verhaltensmustern und Trends",
+          "Segmentierung von Zielgruppen"
+        ]
+      },
+      {
+        "Process": "Veranstaltungsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Veranstaltungsmanagement</b>?",
+        "Description": [
+          "Planung und Organisation von Veranstaltungen wie Messen, Konferenzen und Webinaren",
+          "Durchführung von Veranstaltungen",
+          "Nachbereitung und Evaluation"
+        ]
+      },
+      {
+        "Process": "Produkt-Positionierung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Produkt-Positionierung</b>?",
+        "Description": [
+          "Identifizierung von Wettbewerbsfähigkeit und Marktchancen",
+          "Analyse von Kundenbedürfnissen",
+          "Entwicklung von Positionierungsstrategien",
+          "Überwachung der Marktentwicklung"
+        ]
+      },
+      {
+        "Process": "PR-Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>PR-Management</b>?",
+        "Description": [
+          "Entwicklung von PR-Strategien",
+          "Identifikation relevanter Medienkanäle und Kontakte",
+          "Erstellung und Veröffentlichung von Pressemitteilungen",
+          "Überwachung der Medienberichterstattung"
+        ]
+      },
+      {
+        "Process": "Lead-Nurturing",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Lead-Nurturing</b>?",
+        "Description": [
+          "Identifizierung von potenziellen Kunden",
+          "Entwicklung von Marketingstrategien zur Leadnurturing",
+          "Bewertung von Marketingkanälen",
+          "Durchführung von Kundenansprachen"
+        ]
+      },
+      {
+        "Process": "Kundenbindung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Kundenbindung</b>?",
+        "Description": [
+          "Identifizierung von Maßnahmen zur Verbesserung der Kundenbindung",
+          "Durchführung von Kundenzufriedenheitsumfragen",
+          "Organisation von Kundenveranstaltungen",
+          "Angebot von After-Sales-Services"
+        ]
+      },
+      {
+        "Process": "Kampagnenmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Kampagnenmanagement</b>?",
+        "Description": [
+          "Planung und Organisation von Marketingkampagnen",
+          "Entwicklung von Marketingbotschaften und -inhalten",
+          "Durchführung von Marketingkampagnen",
+          "Analyse der Kampagnenergebnisse"
+        ]
+      },
+      {
+        "Process": "Digitales Marketing",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>digitalen Marketing</b>?",
+        "Description": [
+          "Entwicklung von Online-Marketing-Strategien",
+          "Umsetzung von Suchmaschinenmarketing (SEO und SEM)",
+          "Entwicklung und Verwaltung von Social-Media-Kampagnen",
+          "Überprüfung und Anpassung der digitalen Marketingaktivitäten"
+        ]
+      },
+      {
+        "Process": "Datenanalyse und -management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Datenanalyse und -management</b>?",
+        "Description": [
+          "Sammlung und Analyse von Marketingdaten",
+          "Identifikation von Trends und Verhaltensmustern",
+          "Verwaltung von Marketingdatenbanken und -systemen",
+          "Integration von Marketingdaten in andere Geschäftsprozesse"
+        ]
+      },
+      {
+        "Process": "Content-Entwicklung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Content-Entwicklung</b>?",
+        "Description": [
+          "Identifikation von Zielgruppenbedürfnissen",
+          "Entwicklung von Content-Strategien",
+          "Erstellung von Inhalten wie Blog-Beiträgen, Videos und Infografiken",
+          "Veröffentlichung von Inhalten"
+        ]
+      },
+      {
+        "Process": "Brand-Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Brand-Management</b>?",
+        "Description": [
+          "Entwicklung von Markenidentitäten und -positionierungen",
+          "Durchführung von Markenbewertungen",
+          "Schutz von Markenrechten",
+          "Kontrolle der Markenintegrität"
+        ]
+      },
+      {
+        "Process": "(Online-)Werbung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>(Online-)Werbung</b>?",
+        "Description": [
+          "Entwicklung von Online-Werbestrategien",
+          "Erstellung von Werbeanzeigen",
+          "Durchführung von Werbekampagnen",
+          "Überwachung und Anpassung der Online-Werbemaßnahmen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "Category": "Projektmanagement",
+    "question": [
+      {
+        "Process": "Stakeholdermanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Stakeholdermanagement</b>?",
+        "Description": [
+          "Identifikation von Stakeholdern",
+          "Analyse von Interessen und Bedürfnissen",
+          "Entwicklung von Stakeholder-Management-Strategien",
+          "Kommunikation und Einbeziehung der Stakeholder"
+        ]
+      },
+      {
+        "Process": "Projektabschluss",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Projektabschluss</b>?",
+        "Description": [
+          "Überprüfung des Projektzielerreichungsgrades",
+          "Bewertung des Projekterfolgs",
+          "Dokumentation der Projektergebnisse",
+          "Analyse von Projektlektionen"
+        ]
+      },
+      {
+        "Process": "Risikomanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Risikomanagement</b>?",
+        "Description": [
+          "Identifikation von potenziellen Risiken",
+          "Bewertung von Risikofaktoren",
+          "Entwicklung von Risikomanagementstrategien",
+          "Überwachung und Anpassung des Risikomanagements"
+        ]
+      },
+      {
+        "Process": "Qualitätssicherung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Qualitätssicherung</b>?",
+        "Description": [
+          "Identifikation von Qualitätszielen",
+          "Entwicklung von Qualitätsmanagementstrategien",
+          "Überwachung und Bewertung der Qualitätsstandards",
+          "Implementierung von Qualitätsverbesserungsmaßnahmen"
+        ]
+      },
+      {
+        "Process": "Ressourcenmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Ressourcenmanagement</b>?",
+        "Description": [
+          "Identifikation von Ressourcenbedarf",
+          "Planung von Ressourceneinsatz",
+          "Überwachung und Anpassung des Ressourcenmanagements",
+          "Bewertung der Ressourcenauslastung"
+        ]
+      },
+      {
+        "Process": "Projektmanagement-Tool",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Projektmanagement-Tool</b>?",
+        "Description": [
+          "Identifikation von geeigneten Projektmanagement-Tools",
+          "Integration von Projektmanagement-Tools",
+          "Schulung von Mitarbeitern zur Nutzung der Projektmanagement-Tools",
+          "Überprüfung und Anpassung des Projektmanagement-Tool-Managements"
+        ]
+      },
+      {
+        "Process": "Lieferantenmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Lieferantenmanagement</b>?",
+        "Description": [
+          "Identifikation von Lieferanten",
+          "Bewertung von Lieferantenangeboten",
+          "Verhandlung von Lieferantenverträgen",
+          "Überwachung und Anpassung des Lieferantenmanagements"
+        ]
+      },
+      {
+        "Process": "Projektplanung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Projektplanung</b>?",
+        "Description": [
+          "Identifikation von Projektzielen",
+          "Aufstellung eines Projektteams",
+          "Entwicklung eines Projektplans",
+          "Budgetplanung und -management"
+        ]
+      },
+      {
+        "Process": "Vertragsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Vertragsmanagement</b>?",
+        "Description": [
+          "Identifikation von Vertragsbedarf",
+          "Erstellung von Verträgen",
+          "Verhandlung von Vertragsbedingungen",
+          "Überwachung und Anpassung des Vertragsmanagements"
+        ]
+      },
+      {
+        "Process": "Projektcontrolling",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Projektcontrolling</b>?",
+        "Description": [
+          "Überwachung und Überprüfung der Projektfortschritte",
+          "Identifikation von Abweichungen vom Projektplan",
+          "Entwicklung von Korrekturmaßnahmen",
+          "Erstellung von Statusberichten"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "Category": "Strategie",
+    "question": [
+      {
+        "Process": "Strategieentwicklung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Strategieentwicklung</b>?",
+        "Description": [
+          "Analyse der Unternehmensumwelt",
+          "Identifikation von Chancen und Risiken",
+          "Entwicklung von Unternehmenszielen",
+          "Erstellung von Unternehmensstrategien"
+        ]
+      },
+      {
+        "Process": "Strategieimplementierung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Strategieimplementierung</b>?",
+        "Description": [
+          "Erstellung von Implementierungsplänen",
+          "Umsetzung von Strategien",
+          "Überwachung von Fortschritten",
+          "Anpassung von Strategien"
+        ]
+      },
+      {
+        "Process": "Risikomanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Risikomanagement</b>?",
+        "Description": [
+          "Identifikation von Unternehmensrisiken",
+          "Analyse von Unternehmensrisiken",
+          "Entwicklung von Risikomanagementstrategien",
+          "Überwachung und Anpassung des Risikomanagements"
+        ]
+      },
+      {
+        "Process": "Business Intelligence",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Business Intelligence</b>?",
+        "Description": [
+          "Identifikation von Informationsbedarf",
+          "Datensammlung",
+          "Datenanalyse",
+          "Berichterstellung und Präsentation von Ergebnissen"
+        ]
+      },
+      {
+        "Process": "Benchmarking",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Benchmarking</b>?",
+        "Description": [
+          "Identifikation von Wettbewerbern",
+          "Analyse von Wettbewerbsleistungen",
+          "Entwicklung von Benchmarking-Strategien",
+          "Anpassung von Unternehmensstrategien"
+        ]
+      },
+      {
+        "Process": "Innovationsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Innovationsmanagement</b>?",
+        "Description": [
+          "Identifikation von Innovationsbedarf",
+          "Entwicklung von Innovationsstrategien",
+          "Umsetzung von Innovationen",
+          "Überwachung und Anpassung von Innovationsprozessen"
+        ]
+      },
+      {
+        "Process": "Change Management (Strategiebezogen)",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Change Management</b> (strategiebezogen)?",
+        "Description": [
+          "Identifikation von Änderungsbedarf",
+          "Überwachung von Änderungen",
+          "Bewertung von Änderungen",
+          "Anpassung von Änderungsprozessen im Zusammenhang mit der Unternehmensstrategie"
+        ]
+      },
+      {
+        "Process": "Portfolio Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Portfolio Management</b>?",
+        "Description": [
+          "Identifikation von strategischen Geschäftseinheiten und Geschäftsbereichen",
+          "Analyse der Performance und Entwicklung von Portfolio-Strategien",
+          "Überwachung und Anpassung der Portfolio-Performance im Hinblick auf die Unternehmensstrategie"
+        ]
+      },
+      {
+        "Process": "Performance Management",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Performance Management</b>?",
+        "Description": [
+          "Identifikation von Leistungskennzahlen",
+          "Überwachung der Leistung",
+          "Bewertung der Leistung",
+          "Anpassung der Leistung im Hinblick auf die Unternehmensstrategie"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "Category": "Vertrieb",
+    "question": [
+      {
+        "Process": "Verkaufsförderung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Verkaufsförderung</b>?",
+        "Description": [
+          "Identifizierung von Zielgruppen und potenziellen Kunden",
+          "Auswahl von Werbekanälen und -medien",
+          "Gestaltung von Werbematerialien",
+          "Überwachung der Werbewirkung"
+        ]
+      },
+      {
+        "Process": "Leadgenerierung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Leadgenerierung</b>?",
+        "Description": [
+          "Identifizierung von potenziellen Kunden",
+          "Entwicklung von Marketingkampagnen zur Leadgenerierung",
+          "Bewertung von Marketingkanälen",
+          "Durchführung von Kundenansprachen"
+        ]
+      },
+      {
+        "Process": "Kundenbeziehungsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Kundenbeziehungsmanagement</b>?",
+        "Description": [
+          "Kundenfeedback-Sammlung",
+          "Organisation von Kundenveranstaltungen",
+          "Identifizierung von Cross-Selling- und Up-Selling-Möglichkeiten",
+          "Verwaltung von Kundenbeschwerden und Konflikten"
+        ]
+      },
+      {
+        "Process": "Entwicklung von Vertriebsstrategien",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Entwicklung von Vertriebsstrategien</b>?",
+        "Description": [
+          "Identifizierung von Verkaufskanälen",
+          "Bewertung von Zielgruppen",
+          "Planung von Marketing- und Verkaufsaktivitäten",
+          "Anpassung der Vertriebsstrategie an sich ändernde Marktbedingungen"
+        ]
+      },
+      {
+        "Process": "Strategische Partnerschaften",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zu strategischen Partnerschaften?",
+        "Description": [
+          "Identifizierung von potenziellen Partnern",
+          "Bewertung von Synergien und Wettbewerbsvorteilen",
+          "Entwicklung von Kooperationsmöglichkeiten",
+          "Umsetzung und Überwachung von Partnerschaften"
+        ]
+      },
+      {
+        "Process": "Bestandsmanagement",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Bestandsmanagement</b>?",
+        "Description": [
+          "Überwachung von Lagerbeständen",
+          "Analyse von Verkaufsprognosen und Lagerkosten",
+          "Entwicklung von Bestellstrategien und -plänen",
+          "Abstimmung mit Lieferanten und Kunden"
+        ]
+      },
+      {
+        "Process": "Aufbau von Verkaufskanälen",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Aufbau von Verkaufskanälen</b>?",
+        "Description": [
+          "Identifizierung von potenziellen Verkaufskanälen wie Online-Marktplätzen oder Handelsvertretern",
+          "Bewertung von Vor- und Nachteilen",
+          "Auswahl und Verhandlung von Verkaufskanälen"
+        ]
+      },
+      {
+        "Process": "Auftragsabwicklung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Auftragsabwicklung</b>?",
+        "Description": [
+          "Überprüfung der Verfügbarkeit von Materialien und Arbeitskräften",
+          "Erstellung von Produktionsplänen",
+          "Abstimmung von Liefer- und Zahlungsbedingungen mit Kunden und Lieferanten"
+        ]
+      },
+      {
+        "Process": "Marktanalyse",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Marktanalyse</b>?",
+        "Description": [
+          "Segmentierung des Marktes",
+          "Bewertung von Wettbewerbsvorteilen",
+          "Entwicklung von Markteinführungsstrategien",
+          "Überwachung der Marktentwicklung und Anpassung der Marketingaktivitäten"
+        ]
+      },
+      {
+        "Process": "Kundenbedarfsanalyse",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Kundenbedarfsanalyse</b>?",
+        "Description": [
+          "Identifizierung von Kundenbedürfnissen",
+          "Durchführung von Marktanalysen",
+          "Entwicklung von Lösungsansätzen",
+          "Angebotserstellung"
+        ]
+      },
+      {
+        "Process": "Aufbau von Verkaufsteams",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zum <b>Aufbau von Verkaufsteams</b>?",
+        "Description": [
+          "Identifizierung von Anforderungen an Verkaufsteams",
+          "Auswahl von Vertriebsmitarbeitern",
+          "Schulung und Coaching von Vertriebsmitarbeitern",
+          "Überwachung der Verkaufsleistung"
+        ]
+      },
+      {
+        "Process": "Angebotseinholung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Angebotseinholung</b>?",
+        "Description": [
+          "Definition von Anforderungen an Materialien und Ausrüstung",
+          "Identifizierung von potenziellen Lieferanten",
+          "Bewertung von Lieferantenangeboten und -leistungen"
+        ]
+      },
+      {
+        "Process": "Analyse von Vertriebsdaten",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Analyse von Vertriebsdaten</b>?",
+        "Description": [
+          "Sammlung von Vertriebsdaten",
+          "Analyse von Vertriebsdaten",
+          "Identifikation von Stärken und Schwächen",
+          "Überprüfung und Anpassung von Vertriebsaktivitäten"
+        ]
+      },
+      {
+        "Process": "Angebotserstellung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Angebotserstellung</b>?",
+        "Description": [
+          "Analyse der Kundenanforderungen",
+          "Kalkulation der Kosten und Erstellung von detaillierten Angeboten mit spezifischen Angaben zu Material- und Arbeitsaufwand, Lieferzeiten und Zahlungsbedingungen"
+        ]
+      },
+      {
+        "Process": "Vertragsverhandlungen",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zu <b>Vertragsverhandlungen</b>?",
+        "Description": [
+          "Ausarbeitung von Vertragsbedingungen",
+          "Abstimmung von Haftungs- und Risikoübernahmen",
+          "Klärung von Gewährleistungsfragen",
+          "Überwachung der Vertragserfüllung"
+        ]
+      },
+      {
+        "Process": "Preissetzung und Konditionengestaltung",
+        "Headline": "Wie bewerten Sie Ihren internen Prozess zur <b>Preissetzung und Konditionengestaltung</b>?",
+        "Description": [
+          "Identifizierung von Preissetzungsstrategien",
+          "Analyse von Kostenstrukturen und Wettbewerbsfähigkeit",
+          "Entwicklung von Rabatten und Boni",
+          "Überprüfung von Preis- und Konditionsanpassungen"
+        ]
+      }
+    ]
+  }
+]

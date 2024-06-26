@@ -1,8 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Satoshi';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +12,151 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url(/public/fonts/Satoshi-Light.otf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url(/public/fonts/Satoshi-Regular.otf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url(/public/fonts/Satoshi-Bold.otf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hover-color:hover{
+  background: linear-gradient(91.09deg, #D54A1A 0.94%, #E8B33B 203.21%);
+
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #D64D1B 6.78%, #E18D30 27.08%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-border {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden; /* To ensure the pseudo-element's border-radius works */
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px;
+  padding: 1px; /* Adjust this value to match the border width */
+  background: linear-gradient(101.28deg, rgba(78, 88, 72, 0.4) 0.33%, rgba(232, 179, 59, 0.4) 34.11%, rgba(242, 233, 216, 0.4) 68.38%, rgba(170, 169, 167, 0.4) 99.67%);
+  -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.gradient-border1 {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden; /* To ensure the pseudo-element's border-radius works */
+}
+
+.gradient-border1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px;
+  padding: 1px; /* Adjust this value to match the border width */
+  background: linear-gradient(101.28deg, #5E5E5E 0.33%, #E4E4E4 34.11%, #B4B4B4 68.38%, #949494 99.67%);
+  -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.my-scrollar::-webkit-scrollbar{
+  display: none !important;
+}
+
+.gradient-border2 {
+  position: relative;
+  border-radius: 30px; /* Adjust as needed */
+  overflow: hidden; /* To ensure the pseudo-element's border-radius works */
+  display: inline-block; /* To wrap the input properly */
+  width: 100%;
+}
+
+.gradient-border2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px; /* Match this to the .gradient-border1 border-radius */
+  padding: 2px; /* Adjust this value to match the border width */
+  background: linear-gradient(101.28deg, rgba(78, 88, 72, 0.4) 0.33%, rgba(232, 179, 59, 0.4) 34.11%, rgba(242, 233, 216, 0.4) 68.38%, rgba(170, 169, 167, 0.4) 99.67%);
+  -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none; /* Ensure the pseudo-element doesn't block input interaction */
+  z-index: 1; /* Ensure it's below the input */
+}
+
+.inner-input {
+  border: none; /* Remove default input border */
+  border-radius: 30px; /* Match this to the .gradient-border1 border-radius */
+  padding: 0 10px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensure padding does not increase input size */
+  position: relative; /* Make sure it stacks above the pseudo-element */
+  z-index: 2; /* Ensure input is above the pseudo-element */
+  background: black; /* Set the background color of the input */
+  color: white; /* Text color inside the input */
+  width: 100%;
+}
+
+.relative {
+  position: relative;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.scroll-button.left-0 {
+  left: 0;
+}
+
+.scroll-button.right-0 {
+  right: 0;
+}
+
+.scroll-container {
+  scroll-behavior: smooth;
 }
