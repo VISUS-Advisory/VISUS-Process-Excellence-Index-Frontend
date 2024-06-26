@@ -106,7 +106,7 @@ export default function Step4({ setStepIndex, selectedCategories }) {
           priorität: answer.Priorität,
           comments: comments, // Assign comments directly
           Category: category?.Category,
-          Description: ""
+          Description: q.Description.length > 0 ? q.Description.join(". ") + "." : ""
         };
 
         // Push new object to the new scores array
