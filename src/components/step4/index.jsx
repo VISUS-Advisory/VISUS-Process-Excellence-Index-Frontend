@@ -84,12 +84,14 @@ export default function Step4({ setStepIndex, selectedCategories }) {
         const q = category.question[j];
         const answer = q.answer;
 
-        // Calculate score
-        const score =
-          5 -
-          answer.Prozessreife +
-          (5 - answer.Digitalisierungsgrad) +
-          answer.Priorität;
+        // Calculate score. Rate 0 if skipped
+        const score = (() => {
+          if (answer.Prozessreife * answer.Digitalisierungsgrad * answer.Priorität > 0) {
+            return (5 - answer.Prozessreife) + (5 - answer.Digitalisierungsgrad) + answer.Priorität;
+          } else {
+            return 0;
+          }
+        })();
         console.log("score:", score); // Log score to verify calculations
 
         // Ensure comment is an array and not null/undefined
