@@ -21,10 +21,10 @@ export default function Step1({ setStepIndex }) {
         <div className="2xl:mx-[110px] lg:mx-[60px] mx-[20px] px-[20px] bg-[#000000CC] text-[#F2E9D8CC] rounded-[30px] border border-[#585650] 2xl:mt-[48px] mt-[28px]">
           <div className="2xl:max-w-[1084px] max-w-[884px] w-[100%] m-auto 2xl:py-[82px] lg:py-[40px] py-[30px]">
             <p className="uppercase 2xl:text-[64px] lg:text-[44px] text-[24px] font-[400] text-[#F2E9D8] text-center">
-              VISUS Porcess Excellence Index
+              VISUS Process Excellence Index
             </p>
             <p className="2xl:text-[28px] lg:text-[18px] text-[14px] mt-[15px] uppercase text-center ">
-              Unlock Your Companies Potential
+              Unlock Your Company's Potential
             </p>
             <p className="2xl:text-[28px] lg:text-[18px] text-[14px] leading-[38px] uppercase text-center 2xl:mt-[50px] mt-[20px]">
               Es fehlt oft an Orientierung, um Prozessoptimierungen erfolgreich
