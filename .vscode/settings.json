@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/f074436c-6b6c-4814-8d7a-a3b3a747b6dd/resourceGroups/visus-process-excellence-index/providers/Microsoft.Web/sites/visus-process-excellence-index-frontend",
+    "appService.deploySubpath": "."
+}
