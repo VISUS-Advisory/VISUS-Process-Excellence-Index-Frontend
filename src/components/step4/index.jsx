@@ -84,12 +84,14 @@ export default function Step4({ setStepIndex, selectedCategories }) {
         const q = category.question[j];
         const answer = q.answer;
 
-        // Calculate score
-        const score =
-          5 -
-          answer.Prozessreife +
-          (5 - answer.Digitalisierungsgrad) +
-          answer.Priorität;
+        // Calculate score. Rate 0 if skipped
+        const score = (() => {
+          if (answer.Prozessreife * answer.Digitalisierungsgrad * answer.Priorität > 0) {
+            return (5 - answer.Prozessreife) + (5 - answer.Digitalisierungsgrad) + answer.Priorität;
+          } else {
+            return 0;
+          }
+        })();
         console.log("score:", score); // Log score to verify calculations
 
         // Ensure comment is an array and not null/undefined
@@ -106,7 +108,7 @@ export default function Step4({ setStepIndex, selectedCategories }) {
           priorität: answer.Priorität,
           comments: comments, // Assign comments directly
           Category: category?.Category,
-          Description: ""
+          Description: q.Description.length > 0 ? q.Description.join(". ") + "." : ""
         };
 
         // Push new object to the new scores array
@@ -189,14 +191,14 @@ export default function Step4({ setStepIndex, selectedCategories }) {
     console.log("calcularion", calcularion);
 
     const apiUrl =
-      //"http://127.0.0.1:8000/send-email"
+      // "http://127.0.0.1:8000/send-email"
       "https://visus-process-excellence-index-backend.azurewebsites.net/send-email"; // Replace with your API endpoint
     toast.success(`Sending data to API:, ${apiUrl}!`);
     fetch(apiUrl, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "X_API_KEY": "1234"
+        "X_API_Key": "1234"
       },
       body: JSON.stringify(calcularion), // Convert scoresArray to JSON string
     })
@@ -257,7 +259,7 @@ export default function Step4({ setStepIndex, selectedCategories }) {
             <div className="2xl:mt-[20px] mt-[10px]">
               {sortedScores.map((item, index) => (
                 <div
-                  key={item.process}
+                  key={item.Process}
                   className="p-[3px] rounded-full w-[100%] bg-[black] gradient-border2"
                 >
                   <div className="flex items-center justify-between">
@@ -267,7 +269,7 @@ export default function Step4({ setStepIndex, selectedCategories }) {
                         style={{ backgroundColor: rankTextColors[index] }}
                       />
                       <p className="text-[#F2E9D8] font-medium sm:text-base text-[10px] sm:ml-[14px] ml-[5px]">
-                        {item.process}
+                        {item.Process}
                       </p>
                     </div>
                     <div

@@ -66,8 +66,9 @@ export default function Step2({
                 Wählen Sie Die In Ihrem Unternehmen Relevanten Funktionsbereiche
               </p>
               <div className="flex justify-center flex-wrap 2xl:gap-[20px] lg:gap-[12px] gap-[10px]  2xl:mt-[50px] mt-[30px]">
-                {JsonData.map((item) => (
+                {JsonData.map((item, index) => (
                   <div
+                    key={index}
                     onClick={() => handleFunctionalArea(item)}
                     style={{
                       background: selectedCategories.some(
