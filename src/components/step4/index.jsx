@@ -184,13 +184,13 @@ export default function Step4({ setStepIndex, selectedCategories }) {
     // Assuming scoresArray is populated as per your logic
     let calcularion = {
       email: email,
-      evaluations: {evaluations: scoresArray}
+      evaluations: { evaluations: scoresArray }
     };
     console.log("calcularion", calcularion);
 
     const apiUrl =
-      "http://127.0.0.1:8000/send-email"
-    //"https://visus-process-excellence-index-backend.azurewebsites.net/send-email"; // Replace with your API endpoint
+      //"http://127.0.0.1:8000/send-email"
+      "https://visus-process-excellence-index-backend.azurewebsites.net/send-email"; // Replace with your API endpoint
     toast.success(`Sending data to API:, ${apiUrl}!`);
     fetch(apiUrl, {
       method: "POST",
