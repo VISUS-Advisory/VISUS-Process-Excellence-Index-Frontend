@@ -1,4 +1,5 @@
 import React from "react";
+import { FaEarthAmericas } from "react-icons/fa6";
 
 export default function Step5({ setStepIndex }) {
   const array1 = [
@@ -223,6 +224,15 @@ export default function Step5({ setStepIndex }) {
             <p className="text-[#F2E9D8] font-[500] uppercase">
               Visus Advisory
             </p>
+            <a
+              href="https://www.visusadvisory.com/impressum"
+              className="flex items-center"
+            >
+              <FaEarthAmericas className="text-[#F2E9D8CC] text-xl" />
+              <p className="text-[#F2E9D8CC] text-[14px] font-[500] ml-[10px]">
+                Impressum
+              </p>
+            </a>
             <div className="2xl:max-w-[984px] max-w-[784px] w-[100%] flex lg:flex-row flex-col items-center justify-between gap-[20px]">
               <div className="flex items-center">
                 <img src="/call.svg" alt="" />

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { FaEarthAmericas } from "react-icons/fa6";
 import { json } from "react-router-dom";
 import { toast } from "react-toastify";
 
@@ -86,8 +87,18 @@ export default function Step4({ setStepIndex, selectedCategories }) {
 
         // Calculate score. Rate 0 if skipped
         const score = (() => {
-          if (answer.Prozessreife * answer.Digitalisierungsgrad * answer.Priorität > 0) {
-            return (5 - answer.Prozessreife) + (5 - answer.Digitalisierungsgrad) + answer.Priorität;
+          if (
+            answer.Prozessreife *
+              answer.Digitalisierungsgrad *
+              answer.Priorität >
+            0
+          ) {
+            return (
+              5 -
+              answer.Prozessreife +
+              (5 - answer.Digitalisierungsgrad) +
+              answer.Priorität
+            );
           } else {
             return 0;
           }
@@ -108,7 +119,8 @@ export default function Step4({ setStepIndex, selectedCategories }) {
           priorität: answer.Priorität,
           comments: comments, // Assign comments directly
           Category: category?.Category,
-          Description: q.Description.length > 0 ? q.Description.join(". ") + "." : ""
+          Description:
+            q.Description.length > 0 ? q.Description.join(". ") + "." : "",
         };
 
         // Push new object to the new scores array
@@ -186,7 +198,7 @@ export default function Step4({ setStepIndex, selectedCategories }) {
     // Assuming scoresArray is populated as per your logic
     let calcularion = {
       email: email,
-      evaluations: { evaluations: scoresArray }
+      evaluations: { evaluations: scoresArray },
     };
     console.log("calcularion", calcularion);
 
@@ -198,7 +210,7 @@ export default function Step4({ setStepIndex, selectedCategories }) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "X_API_Key": "1234"
+        X_API_Key: "1234",
       },
       body: JSON.stringify(calcularion), // Convert scoresArray to JSON string
     })
@@ -250,50 +262,54 @@ export default function Step4({ setStepIndex, selectedCategories }) {
             </div>
             <div className="flex items-center justify-between 2xl:mt-[60px] mt-[10px]">
               <p className="sm:text-[18px] text-[#F2E9D8] text-base ">
-                Geschäfts Prozess
+                Geschäftsprozess
               </p>
               <p className=" text-[14px] font-medium text-[#F2E9D8] ">
                 Results
               </p>
             </div>
             <div className="2xl:mt-[20px] mt-[10px]">
-              {sortedScores.map((item, index) => (
-                <div
-                  key={item.Process}
-                  className="p-[3px] rounded-full w-[100%] bg-[black] gradient-border2"
-                >
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center sm:pl-[28px] pl-[10px]">
+              {sortedScores
+                .filter((item) => item.score > 0)
+                .map((item, index) => (
+                  <div
+                    key={item.Process}
+                    className="p-[3px] rounded-full w-[100%] bg-[black] gradient-border2"
+                  >
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center sm:pl-[28px] pl-[10px]">
+                        <div
+                          className="w-[14px] h-[14px] rounded-full"
+                          style={{ backgroundColor: rankTextColors[index] }}
+                        />
+                        <p className="text-[#F2E9D8] font-medium sm:text-base text-[10px] sm:ml-[14px] ml-[5px]">
+                          {item.Process}
+                        </p>
+                      </div>
                       <div
-                        className="w-[14px] h-[14px] rounded-full"
-                        style={{ backgroundColor: rankTextColors[index] }}
-                      />
-                      <p className="text-[#F2E9D8] font-medium sm:text-base text-[10px] sm:ml-[14px] ml-[5px]">
-                        {item.Process}
-                      </p>
-                    </div>
-                    <div
-                      className="py-[5px] rounded-full"
-                      style={{
-                        paddingLeft: `${paddingMap.get(item.score)}px`,
-                        paddingRight: `${paddingMap.get(item.score)}px`,
-                        backgroundColor: rankBackgroundColors[index],
-                        color: rankTextColors[index],
-                      }}
-                    >
-                      {item.score}
+                        className="py-[5px] rounded-full"
+                        style={{
+                          paddingLeft: `${paddingMap.get(item.score)}px`,
+                          paddingRight: `${paddingMap.get(item.score)}px`,
+                          backgroundColor: rankBackgroundColors[index],
+                          color: rankTextColors[index],
+                        }}
+                      >
+                        {item.score}
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
             </div>
+
             <div className="mt-[10px]">
-              <div className="p-[5px] cursor-pointer rounded-full w-[100%] sm:text-base text-[10px] bg-black gradient-border2 font-[500] text-[#F2E9D8CC] text-center py-[10px]">
-                Get &nbsp;+
+              <div className="p-[5px] rounded-full w-[100%] sm:text-base text-[10px] bg-black gradient-border2 font-[500] text-[#F2E9D8CC] text-center py-[10px]">
+                {/* Get &nbsp;+
                 {scoresArray.length < 10
                   ? scoresArray.length
                   : Math.floor(scoresArray.length / 10) * 10}
-                &nbsp; Remaining Prozess via Email
+                &nbsp; Remaining Prozess via Email */}
+                Erhalten Sie weitere Informationen zu den Prozessen via Emai
               </div>
             </div>
             <div className="sm:flex items-center mt-[18px]">
@@ -335,6 +351,15 @@ export default function Step4({ setStepIndex, selectedCategories }) {
             <p className="text-[#F2E9D8] font-[500] uppercase">
               Visus Advisory
             </p>
+            <a
+              href="https://www.visusadvisory.com/impressum"
+              className="flex items-center"
+            >
+              <FaEarthAmericas className="text-[#F2E9D8CC] text-xl" />
+              <p className="text-[#F2E9D8CC] text-[14px] font-[500] ml-[10px]">
+                Impressum
+              </p>
+            </a>
             <div className="2xl:max-w-[984px] max-w-[784px] w-[100%] flex lg:flex-row flex-col items-center justify-between gap-[20px]">
               <div className="flex items-center">
                 <img src="/call.svg" alt="" />

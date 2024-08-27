@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
+import { FaEarthAmericas } from "react-icons/fa6";
+import { Tooltip } from "react-tooltip";
 
 export default function Step3({
   setStepIndex,
@@ -273,7 +275,17 @@ export default function Step3({
             <div className="flex items-center justify-center 2xl:mt-[25px] mt-[15px]">
               <div className="px-[28px] py-[7px] gradient-border flex items-center justify-center rounded-[30px]">
                 <span className="text-[#F2E9D899] font-bold text-[18px]">
-                  Controlling:
+                  {selectedCategories?.map(
+                    (item, index) =>
+                      currentOuterIndex === index && (
+                        <p
+                          key={index}
+                          className="capitalize cursor-pointer whitespace-nowrap text-[#F2E9D8]"
+                        >
+                          {item.Category}:
+                        </p>
+                      )
+                  )}
                 </span>
                 <span className="text-[20px] font-[700]">
                   &nbsp;{currentInnderIndex + 1}/
@@ -281,6 +293,7 @@ export default function Step3({
                 </span>
               </div>
             </div>
+
             <div
               className="text-[#F2E9D8] md:text-[22px] text-[14px] uppercase text-center mt-[15px]"
               dangerouslySetInnerHTML={{
@@ -310,18 +323,27 @@ export default function Step3({
                 ))}
               </div>
             </div>
-            <div className="max-w-[1430px] w-[100%] m-auto mt-[24px] flex md:flex-nowrap flex-wrap 2xl:gap-[20px]   gap-[10px]  lg:justify-between items-center">
-              <div className="lg:px-[45px] px-[25px] py-[11px] gradient-border flex  items-center justify-center flex-col rounded-[20px] sm:w-fit w-[100%]">
+            <div className="max-w-[1430px] w-[100%] m-auto mt-[24px] flex md:flex-nowrap flex-wrap 2xl:gap-[20px] gap-[10px]  lg:justify-between items-center">
+              <div className=" lg:px-[45px] px-[25px] py-[11px] gradient-border flex items-center justify-center flex-col rounded-[20px] sm:w-fit w-[100%]">
                 <div className="flex items-center justify-center">
                   <p className="font-[700] lg:text-[20px] text-[12px] text-[#F2E9D8]">
                     Prozessreife
                   </p>
+
                   <img
                     src="/info.svg"
-                    alt=""
-                    className="ml-[9px] cursor-pointer"
+                    alt="Info"
+                    className="ml-[9px] cursor-pointer relative"
+                    data-tooltip-id="my-tooltip-1"
                   />
+                  <Tooltip id="my-tooltip-1" className="z-50 ">
+                    <div className="w-[250px] text-xs">
+                      Prozessreife beschreibt den Entwicklungsstand und die
+                      Qualität Ihrer Geschäftsprozesse.
+                    </div>
+                  </Tooltip>
                 </div>
+
                 <div className="mt-[20px] flex items-center 2xl:gap-[15px]  gap-[7px]">
                   <div
                     onClick={() => handleProzessreife(1)}
@@ -390,11 +412,19 @@ export default function Step3({
                   <p className="font-[700] lg:text-[20px] text-[12px] text-[#F2E9D8]">
                     Digitalisierungsgrad
                   </p>
+
                   <img
                     src="/info.svg"
-                    alt=""
-                    className="ml-[9px] cursor-pointer"
+                    alt="Info"
+                    className="ml-[9px] cursor-pointer relative"
+                    data-tooltip-id="my-tooltip-2"
                   />
+                  <Tooltip id="my-tooltip-2" className="z-50 ">
+                    <div className="w-[250px] text-xs">
+                      Digitalisierungsgrad beschreibt das Ausmaß, in dem Ihre
+                      Geschäftsprozesse
+                    </div>
+                  </Tooltip>
                 </div>
                 <div className="mt-[20px] flex items-center 2xl:gap-[15px] gap-[7px]">
                   <div
@@ -460,16 +490,25 @@ export default function Step3({
                 </div>
               </div>
               <div className="lg:px-[45px] px-[25px] py-[11px] gradient-border flex items-center justify-center flex-col rounded-[20px] sm:w-fit w-[100%]">
-                <div className="flex items-center justify-center">
+                <div className="flex relative items-center justify-center">
                   <p className="font-[700] lg:text-[20px] text-[12px] text-[#F2E9D8]">
                     Priorität
                   </p>
+
                   <img
                     src="/info.svg"
-                    alt=""
-                    className="ml-[9px] cursor-pointer"
+                    alt="Info"
+                    className="ml-[9px] cursor-pointer relative"
+                    data-tooltip-id="my-tooltip"
                   />
+                  <Tooltip id="my-tooltip" className="z-50 ">
+                    <div className="w-[200px] text-xs">
+                      Priorität in Bezug auf Ihre Unternehmensprozesse
+                      beschreibt
+                    </div>
+                  </Tooltip>
                 </div>
+
                 <div className="mt-[20px] flex items-center 2xl:gap-[15px] gap-[7px]">
                   <div
                     onClick={() => handlePriorität(1)}
@@ -552,19 +591,27 @@ export default function Step3({
                     />
                     <div className="p-[20px] absolute border-2  border-[#4E584866] 2xl:w-[555px] sm:w-[355px] w-[300px] h-[341px] rounded-[30px] bg-[#000000] bottom-0 sm:right-[90px] right-[-10%] z-50">
                       <p className="text-center text-[#F2E9D8] 2xl:text-[20p] text-[16px]">
-                        Comments
+                        Kommentare
                       </p>
-                      <div className=" h-[200px] overflow-auto">
+                      <div className="h-[200px] overflow-auto scrollbar-none">
                         {selectedCategories[currentOuterIndex]?.question[
                           currentInnderIndex
                         ]?.answer?.comment?.map((item, index3) => (
-                          <div className="2xl:p-[20px] p-[15px] gradient-border 2xl:mt-[20px] mt-[10px]">
-                            <p className="2xl:text-[16px] text-[13px]  ">
+                          <div
+                            key={index3}
+                            className="2xl:p-[20px] p-[15px] gradient-border 2xl:mt-[20px] mt-[10px]"
+                          >
+                            <p className="2xl:text-[16px] text-[13px]">
                               {item?.commentText}
                             </p>
-                            <div className="flex item-center justify-between mt-[10px]">
+                            <div className="flex items-center justify-between mt-[10px]">
                               <p className="text-[#F2E9D880] 2xl:text-base text-[13px]">
-                                27 Jan, 2024 at 14:56
+                                {new Date().toLocaleDateString("en-GB", {
+                                  day: "2-digit",
+                                  month: "short",
+                                  year: "numeric",
+                                })}
+                                <span className="px-1">at 14:56</span>
                               </p>
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -611,17 +658,17 @@ export default function Step3({
               <div className="flex items-center justify-center gap-[14px]">
                 <button
                   onClick={handlePrevious}
-                  className="rounded-full flex items-center justify-center bg-[#000000] group border border-[#282623] hover-color   w-[44px]  h-[44px] uppercase text-[#F2E9D8] font-[700]"
+                  className="rounded-full flex items-center justify-center bg-[#000000] group border border-[#282623] hover-color w-[44px]  h-[44px] uppercase text-[#F2E9D8] font-[700"
                 >
                   <img
                     src="/arrow-right.svg"
                     alt=""
-                    className="opacity-50 group-hover:opacity-100"
+                    className="opacity-50 group-hover:opacity-100 select-none"
                   />
                 </button>
                 <button
                   onClick={handleNext}
-                  className="sm:w-[245px] w-[145px]  h-[47px] rounded-[30px] font-[700] sm:text-base text-[12px] text-[#F2E9D8] uppercase"
+                  className="sm:w-[245px] w-[145px] h-[47px] rounded-[30px] font-[700] sm:text-base text-[12px] text-[#F2E9D8] uppercase select-none"
                   style={{
                     background:
                       "linear-gradient(93.18deg, #D54A1A 0%, #E8B33B 151.73%)",
@@ -663,7 +710,7 @@ export default function Step3({
                   <img
                     src="/arrow-left.svg"
                     alt=""
-                    className="opacity-50 group-hover:opacity-100"
+                    className="opacity-50 group-hover:opacity-100 select-none"
                   />
                 </button>
               </div>
@@ -675,6 +722,15 @@ export default function Step3({
             <p className="text-[#F2E9D8] font-[500] uppercase">
               Visus Advisory
             </p>
+            <a
+              href="https://www.visusadvisory.com/impressum"
+              className="flex items-center"
+            >
+              <FaEarthAmericas className="text-[#F2E9D8CC] text-xl" />
+              <p className="text-[#F2E9D8CC] text-[14px] font-[500] ml-[10px]">
+                Impressum
+              </p>
+            </a>
             <div className="2xl:max-w-[984px] max-w-[784px] w-[100%] flex lg:flex-row flex-col items-center justify-between gap-[20px]">
               <div className="flex items-center">
                 <img src="/call.svg" alt="" />
