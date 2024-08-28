@@ -4,42 +4,41 @@
 
 body {
   margin: 0;
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 @font-face {
-  font-family: 'Satoshi';
-  src: url(/public/fonts/Satoshi-Light.otf) format('truetype');
+  font-family: "Satoshi";
+  src: url(/public/fonts/Satoshi-Light.otf) format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Satoshi';
-  src: url(/public/fonts/Satoshi-Regular.otf) format('truetype');
+  font-family: "Satoshi";
+  src: url(/public/fonts/Satoshi-Regular.otf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Satoshi';
-  src: url(/public/fonts/Satoshi-Bold.otf) format('truetype');
+  font-family: "Satoshi";
+  src: url(/public/fonts/Satoshi-Bold.otf) format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
-.hover-color:hover{
-  background: linear-gradient(91.09deg, #D54A1A 0.94%, #E8B33B 203.21%);
-
+.hover-color:hover {
+  background: linear-gradient(91.09deg, #d54a1a 0.94%, #e8b33b 203.21%);
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, #D64D1B 6.78%, #E18D30 27.08%);
+  background: linear-gradient(90deg, #d64d1b 6.78%, #e18d30 27.08%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -51,7 +50,7 @@ code {
 }
 
 .gradient-border::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -59,10 +58,14 @@ code {
   bottom: 0;
   border-radius: 30px;
   padding: 1px; /* Adjust this value to match the border width */
-  background: linear-gradient(101.28deg, rgba(78, 88, 72, 0.4) 0.33%, rgba(232, 179, 59, 0.4) 34.11%, rgba(242, 233, 216, 0.4) 68.38%, rgba(170, 169, 167, 0.4) 99.67%);
-  -webkit-mask: 
-      linear-gradient(#fff 0 0) content-box, 
-      linear-gradient(#fff 0 0);
+  background: linear-gradient(
+    101.28deg,
+    rgba(78, 88, 72, 0.4) 0.33%,
+    rgba(232, 179, 59, 0.4) 34.11%,
+    rgba(242, 233, 216, 0.4) 68.38%,
+    rgba(170, 169, 167, 0.4) 99.67%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
 }
@@ -74,7 +77,7 @@ code {
 }
 
 .gradient-border1::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -82,15 +85,19 @@ code {
   bottom: 0;
   border-radius: 30px;
   padding: 1px; /* Adjust this value to match the border width */
-  background: linear-gradient(101.28deg, #5E5E5E 0.33%, #E4E4E4 34.11%, #B4B4B4 68.38%, #949494 99.67%);
-  -webkit-mask: 
-      linear-gradient(#fff 0 0) content-box, 
-      linear-gradient(#fff 0 0);
+  background: linear-gradient(
+    101.28deg,
+    #5e5e5e 0.33%,
+    #e4e4e4 34.11%,
+    #b4b4b4 68.38%,
+    #949494 99.67%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
 }
 
-.my-scrollar::-webkit-scrollbar{
+.my-scrollar::-webkit-scrollbar {
   display: none !important;
 }
 
@@ -103,7 +110,7 @@ code {
 }
 
 .gradient-border2::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -111,10 +118,14 @@ code {
   bottom: 0;
   border-radius: 30px; /* Match this to the .gradient-border1 border-radius */
   padding: 2px; /* Adjust this value to match the border width */
-  background: linear-gradient(101.28deg, rgba(78, 88, 72, 0.4) 0.33%, rgba(232, 179, 59, 0.4) 34.11%, rgba(242, 233, 216, 0.4) 68.38%, rgba(170, 169, 167, 0.4) 99.67%);
-  -webkit-mask: 
-      linear-gradient(#fff 0 0) content-box, 
-      linear-gradient(#fff 0 0);
+  background: linear-gradient(
+    101.28deg,
+    rgba(78, 88, 72, 0.4) 0.33%,
+    rgba(232, 179, 59, 0.4) 34.11%,
+    rgba(242, 233, 216, 0.4) 68.38%,
+    rgba(170, 169, 167, 0.4) 99.67%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none; /* Ensure the pseudo-element doesn't block input interaction */
@@ -159,4 +170,12 @@ code {
 
 .scroll-container {
   scroll-behavior: smooth;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
